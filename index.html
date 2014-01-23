@@ -1,99 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Browsr it!</title>
-		<style>
-			*{
-				margin: 0;
-				padding: 0;
-				box-sizing: border-box;
-			}
-			
-			.cover{
-				position: fixed;
-				z-index: 3;
-				top: 0;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				background: #333;
-				color: #fff;
-				text-align: center;
-				padding: 200px 0;
-			}
-			.cover a{
-				color: #fff;
-			}
+    <head>
+        <meta charset="utf-8">
+        <title>Browsr it!</title>
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+    </head>
+    <body class="go">
+        <div class="cover">
+            <p>Browsr.it</p>
+            <a href="#" class="start">Start!</a>
+        </div>
+        <header>
+            <h1>Browsr.it</h1>
+        </header>
+        <div id="drop" class="droparea">Drop your image(s) here</div>
+        <div id="results" class="images"></div>
+        <div class="download">You can right-click and save as on each image or</div>
 
-			.go .cover{
-				display: none;
-			}
-
-			header{
-				height: 40px;
-				line-height: 40px;
-				background: #333;
-				color: #fff;
-				text-align: center;
-			}
-
-			header h1{
-				font-size: 1em;
-			}
-
-			.droparea{
-				height: 200px;
-				line-height: 200px;
-				text-align: center;
-				margin: 0 auto;
-				background: cyan;
-			}
-
-			.images{
-				position: absolute;
-				top: 240px;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				background: #ddd;
-				display: block;
-				padding: 40px 40px 100px;
-				text-align: center;
-				overflow: auto;
-			}
-
-			.images img{
-				display: inline-block;
-				height: 200px;
-				width: auto;
-			}
-
-			.download{
-				position: absolute;
-				height: 60px;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				background: rgba(0,0,0,.8);
-				color: #fff;
-				padding: 10px 40px;
-			}
-			
-		</style>
-	</head>
-	<body class="go">
-		<div class="cover">
-			<p>Browsr.it</p>
-			<a href="#" class="start">Start!</a>
-		</div>
-		<header>
-			<h1>Browsr.it</h1>
-		</header>
-		<div id="drop" class="droparea">Drop your image(s) here</div>
-		<div id="results" class="images"></div>
-		<div class="download">You can right-click and save as on each image or</div>
-		<script src="addbrowserui.js"></script>
-		<script src="getdroppedimage.js"></script>
-	</body>
+        <script src="./js/addbrowserui.js"></script>
+        <script src="./js/getdroppedimage.js"></script>
+    </body>
 </html>
