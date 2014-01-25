@@ -15,7 +15,7 @@ If you see:
 Listening @ port 3000...
 ```
 
-Then, you're ready. Navigate in your favorite web browser to **[127.0.0.1:80]** or **[localhost:80]**. That's all.
+Then, you're ready. Navigate in your favorite web browser to **[127.0.0.1:3000]** or **[localhost:3000]**. That's all.
 
 Happy hacking!
 
