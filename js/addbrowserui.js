@@ -1,5 +1,5 @@
 // Is ugly, but works a little better... At least passes JSLint test :)
-(function (window, document) {
+;(function (window, document) {
     'use strict';
 
     var m,
