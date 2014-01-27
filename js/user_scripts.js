@@ -6,5 +6,6 @@
             var url = e.target.src;
             window.open(url, '_blank');
         }
+        e.stopPropagation ? e.stopPropagation() : (e.cancelBubble=true);
     };
 }(window, window.document));
