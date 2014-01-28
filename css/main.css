@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+#results > * {
+    border: 1px dotted #ccc;
+    cursor: pointer;
+    margin: 5px;
+}
+
 .cover {
     position: fixed;
     z-index: 3;
