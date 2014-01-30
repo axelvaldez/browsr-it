@@ -75,10 +75,10 @@
                         canvasPadding = 50,
                         browserHeaderHeight = imgTopLeft.height,
                         // browserWindowRadius = 5,
-                        browserImgRight = 65,
+                        browserImgRight = imgTopRight.width,
                         browserRadius = 5,
-                        browserTabText = "Nearsoft",
-                        browserURL = "nearsoft.com",
+                        browserTabText = "",
+                        browserURL = "",
                         resultImg = document.getElementById('result'),
                         // set canvas
                         can = document.createElement('canvas'),
