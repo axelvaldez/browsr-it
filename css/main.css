@@ -48,7 +48,12 @@ header h1 {
     line-height: 200px;
     text-align: center;
     margin: 0 auto;
-    background: cyan;
+    background: #aaa;
+}
+
+.droparea:hover{
+    background: orange;
+    color: #fff;
 }
 
 .images {
