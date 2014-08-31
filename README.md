@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/axelvaldez/browsr-it.png?label=ready&title=Ready)](https://waffle.io/axelvaldez/browsr-it)
 Browsr-it!
 ---------------
 
